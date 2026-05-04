@@ -1,9 +1,16 @@
 
-AI-based Energy Efficiency in HetNet
-Description
-Simulation d'un réseau hétérogène (HetNet) avec optimisation
-de la consommation énergétique par Q-Learning et Deep Q-Learning (DQN).
-Structure
+# ⚡ AI-based Energy Efficiency in HetNet
+
+## 📖 Description
+Simulation d'un réseau hétérogène (**HetNet**) avec optimisation de la consommation énergétique par :
+- Q-Learning  
+- Deep Q-Learning (DQN)
+
+---
+
+## 📁 Structure du projet
+
+```bash
 Projet_EE_HetNet/
 ├── ns2/
 │   ├── scenario_baseline.tcl   # HetNet SANS IA (référence)
@@ -17,12 +24,12 @@ Projet_EE_HetNet/
 │   ├── communication.py        # Interface NS2 <-> Python
 │   └── plot_results.py         # Génération graphiques
 ├── results/
-│   ├── q_table.json            # Q-table entraînée
-│   ├── energy_ai.csv           # Énergie par épisode (Q-Learning)
-│   ├── rewards.csv             # Rewards par épisode
-│   ├── baseline_trace.tr       # Trace NS2 baseline
-│   ├── ai_trace.tr             # Trace NS2 Q-Learning
-│   ├── dqn_trace.tr            # Trace NS2 DQN
+│   ├── q_table.json
+│   ├── energy_ai.csv
+│   ├── rewards.csv
+│   ├── baseline_trace.tr
+│   ├── ai_trace.tr
+│   ├── dqn_trace.tr
 │   └── resultats_comparison.txt
 ├── figures/
 │   ├── energy_comparison.png
