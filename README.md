@@ -9,6 +9,10 @@ Simulation d'un réseau hétérogène (**HetNet**) avec optimisation de la conso
 ---
 
 ## 📁 Structure du projet
+# 0. created the diroctore
+#  cd ~
+#  mkdire Projet_EE_HetNet
+# cd Projet_EE_HetNet
 
 ```bash
 Projet_EE_HetNet/
@@ -44,6 +48,7 @@ Métrique	Baseline	Q-Learning
 Économie	-	5.06 W (3.4%)
 
 Lancer le projet
+
 # 1. Tout lancer automatiquement
 bash scripts/run_simulation.sh
 
